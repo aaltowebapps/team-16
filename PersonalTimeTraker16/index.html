@@ -13,7 +13,7 @@
     <script src='backbone.js' type='text/javascript'></script>
     <script src='backbone.localStorage.js' type='text/javascript'></script>
     <title>
-      Blog
+      Personal task tracker 16
     </title>
     <style type='text/css'>
       /*<![CDATA[*/
@@ -184,8 +184,8 @@
     </script>
     <div data-role='page' id='home'>
       <div data-role='header'>
-        <h1>Our First Blog</h1>
-        <a class='ui-btn-right' data-icon='gear' data-transition='slidedown' href='#options'>Options</a>
+        <h1>Personal Time Tracker 16 </h1>
+        <a class='ui-btn-right' data-icon='gear' data-transition='slidedown' href='#options'>Remove</a>
       </div>
       <div data-role='content'>
         <ul data-role='listview' id='articlesList'></ul>
@@ -194,13 +194,13 @@
         <div data-role='navbar'>
           <ul>
             <li>
-              <a data-icon='home' href='/'>Posts</a>
+              <a data-icon='home' href='/'>Tasks</a>
             </li>
             <li>
               <a data-icon='refresh' href='#home' id='refresh'>Refresh</a>
             </li>
             <li>
-              <a data-icon='plus' data-transition='flip' href='#new'>New Entry</a>
+              <a data-icon='plus' data-transition='flip' href='#new'>Add task</a>
             </li>
           </ul>
         </div>
@@ -208,27 +208,27 @@
     </div>
     <div data-role='page' id='new'>
       <div data-role='header'>
-        <h1>Our First Blog</h1>
-        <a class='ui-btn-right' data-icon='gear' data-transition='slidedown' href='#options'>Options</a>
+        <h1>Add task</h1>
+        <a class='ui-btn-right' data-icon='gear' data-transition='slidedown' href='#options'>Remove</a>
       </div>
       <div data-role='content'>
         <form>
-          <input id='title' name='title' placeholder='Post Title' required='required' type='text' />
-          <textarea id='content' name='content' placeholder='Content' rows='5'></textarea>
-          <a data-role='button' href='#home' id='postEntry'>Post</a>
+          <input id='title' name='title' placeholder='Task' required='required' type='text' />
+          <textarea id='content' name='content' placeholder='Description' rows='5'></textarea>
+          <a data-role='button' href='#home' id='postEntry'>Save</a>
         </form>
       </div>
       <div data-position='fixed' data-role='footer'>
         <div data-role='navbar'>
           <ul>
             <li>
-              <a data-icon='home' href='/'>Posts</a>
+              <a data-icon='home' href='/'>Tasks</a>
             </li>
             <li>
               <a data-icon='refresh' href='#home' id='refresh'>Refresh</a>
             </li>
             <li>
-              <a data-icon='plus' data-transition='flip' href='#new'>New Entry</a>
+              <a data-icon='plus' data-transition='flip' href='#new'>Add task</a>
             </li>
           </ul>
         </div>
@@ -256,7 +256,7 @@
               <a data-icon='refresh' href='#home' id='refresh'>Refresh</a>
             </li>
             <li>
-              <a data-icon='plus' data-transition='flip' href='#new'>New Entry</a>
+              <a data-icon='plus' data-transition='flip' href='#new'>Add task</a>
             </li>
           </ul>
         </div>
